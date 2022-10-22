@@ -12,7 +12,7 @@ public class Main {
 
         int price = 1000;
         int miles = 20;
-        int bonus = 1000 / 20;
+        int bonus = price / miles;
         System.out.println("За билет стоимостью "+ price +  " вы получите " + bonus +" бонусных миль.");
 
 
